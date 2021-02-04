@@ -1,0 +1,37 @@
+.border1 {
+  border: 1px solid red;
+}
+
+.border2 {
+  border: 1px solid rgb(0, 26, 255);
+}
+
+.border3 {
+  border: 1px solid rgb(0, 255, 34);
+}
+
+.landing-grid {
+  height: 100vh;
+  width: auto;
+  display: grid;
+  grid-template-columns: 80px repeat (2, 1fr);
+  grid-template-rows: 80px 1fr;
+}
+
+.nav {
+  grid-row: 1/2;
+  grid-column: 1/-1;
+  background: peachpuff;
+}
+
+.main {
+  grid-row: 2/3;
+  grid-column: 1/-1;
+  background: green;
+}
+
+nav .name {
+}
+
+nav .hamburder-nav {
+}
